@@ -39,6 +39,7 @@ defmodule Membrane.ICE.Mixfile do
   defp deps do
     [
       {:membrane_opentelemetry, "~> 0.1.0"},
+      {:ex_ice, github: "elixir-webrtc/ex_ice", ref: "cd4cceb"},
       {:membrane_core, "~> 0.11"},
       {:membrane_rtp_format, "~> 0.7.0"},
       {:membrane_funnel_plugin, "~> 0.8.0"},
